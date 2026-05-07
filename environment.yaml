@@ -18,11 +18,13 @@ channels:
   - snowflake
 dependencies:
   - python=3.8.*
+  - Python version >=3.8, <3.12
   - snowflake-snowpark-python=
   - streamlit=
   - snowflake-sqlalchemy
   - snowflake-snowpark-python=1.9.0
   - snowflake-connector-python=3.11.0
+  - snowflake-snowpark-python==1.23.0
 
 
 [tool.uv]
